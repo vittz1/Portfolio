@@ -1,6 +1,6 @@
 # About me Portfolio | Projeto em andamento.
 
-[Demostração aqui](https://vittz.github.io)
+[Demostração aqui](https://vittz1.github.io/About-me/)
 
 ![About me Template Homepage](https://i.imgur.com/zvbcHNk.png)
 
@@ -11,6 +11,6 @@
 - Easily link to your profiles on ResearchGate and ORCID
 
 ## Instação
-* $ git clone 
-* Your new site should be ready at https://vittz1.github.io/About-me/
-* You can now modify the contents and personalise the template
+* $ git clone https://github.com/vittz1/About-me.git
+* Seu novo site deve estar pronto em https://vittz1.github.io/About-me/
+
