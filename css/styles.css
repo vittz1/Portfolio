@@ -45,9 +45,7 @@ a:hover{
     transform: scale(1.1);
     opacity: 0.6;
 }
-body{
-    background-image: url(/assets/img/fundo.png);
-}
+
 .DowCV2{
     display:inline-block;
     background-color: #F25A70;
