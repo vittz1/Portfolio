@@ -1,0 +1,13 @@
+h1{
+    border-bottom: 8px black solid;
+    border-right: 5px black solid;
+    border-bottom-right-radius: 80px 80px;
+    background-color: #F25A70;
+    padding: 80px 10px 20px;
+    margin: 50px 900px 30px 50px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: "Press Start 2P", sans-serif;
+    font-weight: 400;
+    text-shadow: 3px 3px 2px black;
+}
