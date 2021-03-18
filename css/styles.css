@@ -34,14 +34,48 @@ a:hover{
     opacity: 0.6;
 }
 
-#DowCV{
+.DowCV{
     display:inline-block;
     background-color: #F25A70;
     box-shadow: 5px 5px 0px black;
     padding: 18px 20px;
     margin-right: 0;
 }
-#DowCV:hover{
+.DowCV:hover{
     transform: scale(1.1);
     opacity: 0.6;
+}
+body{
+    background-image: url(/assets/img/fundo.png);
+}
+.DowCV2{
+    display:inline-block;
+    background-color: #F25A70;
+    box-shadow: 8px 8px 10px black;
+    padding: 18px 20px;
+    margin-left: 50px;
+}
+.DowCV2:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+.Cont2{
+    display:inline-block;
+    background-color: #F25A70;
+    box-shadow: 8px 8px 10px black;
+    padding: 18px 20px;
+    margin-left: 5px;
+}
+.Cont2:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+h1,h2{
+    margin: 50px 10px 60px 60px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: "Press Start 2P", sans-serif;
+    font-weight: 300;
 }
