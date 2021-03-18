@@ -11,7 +11,7 @@
 - Easily link to your profiles on ResearchGate and ORCID
 
 ## Instação
-* $ git clone 
+* $ git clone https://github.com/vittz1/About-me.git
 * Your new site should be ready at https://vittz1.github.io/About-me/
 * You can now modify the contents and personalise the template
 
