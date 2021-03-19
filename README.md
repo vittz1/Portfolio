@@ -2,7 +2,7 @@
 
 [Demostração aqui](https://vittz1.github.io/About-me/)
 
-![About me Template Homepage](https://i.imgur.com/zvbcHNk.png)
+![About me Template Homepage](https://i.imgur.com/URbkXeL.png)
 
 ## Futuras Features
 - Responsive
