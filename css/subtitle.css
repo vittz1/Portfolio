@@ -4,3 +4,13 @@
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 3px 3px 2px black;
 }
+
+.subtitle.-second{
+    position: relative;
+    top: 10px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: "Press Start 2P", sans-serif;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+}
