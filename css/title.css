@@ -1,7 +1,24 @@
-.title{
+.title {
+    width: 13ch;
+    animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    padding-bottom: 20px;
     color: #615055;
-    font-size: 40px;
-    padding-bottom: 30px;
+    font-size: 45px;
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 5px 5px 2px black;
-}
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
