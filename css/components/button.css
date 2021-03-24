@@ -1,0 +1,29 @@
+.button
+{
+    display: inline-block;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 2px black;
+    border-radius: 5px;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: .3s;
+}
+
+.button:hover
+{
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+@keyframes pulse 
+{
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }

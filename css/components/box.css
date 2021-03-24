@@ -1,0 +1,11 @@
+#box
+  { 
+      background-color: #48525B;
+      display: inline-block;
+      box-shadow: 10px 10px 5px black;
+      border-radius: 5px;
+      margin-left: 38px;
+      margin-top: 15px;
+      text-align: center;
+      padding: 42px 40px;
+  }

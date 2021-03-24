@@ -13,4 +13,3 @@
 ## Instação
 * $ git clone https://github.com/vittz1/About-me.git
 * Seu novo site deve estar pronto em https://vittz1.github.io/About-me/
-
