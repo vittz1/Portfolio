@@ -11,7 +11,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    background-color: #7C5E99;
+    background-color: #005775;
     border-bottom: 10px solid black;
     padding: 10px 20px;
 }
@@ -31,9 +31,8 @@ a
 {
     display: inline-flex;
     align-items: center;
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 22px;
-    font-family: 'Architects Daughter', cursive;
     font-weight:bold;
     text-decoration: none;
     margin-right: 30px;
@@ -42,7 +41,7 @@ a
 a::before
 {
     content: "";
-    background-color: #F25A70;
+    background-color: #394046;
     width: 10px;
     height: 10px;
     margin-right: 10px;
