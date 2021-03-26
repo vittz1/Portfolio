@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Press+Start+2P&display=swap');
+
+.logo
+{
+    width: 60px;
+    height: 70px;
+}
+
+a
+{
+    text-align:right;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #005975;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+}

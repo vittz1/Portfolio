@@ -2,6 +2,10 @@
 {
     display: inline-block;
     background-color: #394046;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight:bold;
+    text-decoration: none;
     box-shadow: 5px 5px 2px black;
     border-radius: 5px;
     padding: 18px 20px;

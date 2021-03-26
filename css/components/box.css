@@ -1,11 +1,14 @@
-#box
+.box
   { 
-      background-color: #48525B;
-      display: inline-block;
-      box-shadow: 10px 10px 5px black;
-      border-radius: 5px;
-      margin-left: 38px;
-      margin-top: 15px;
-      text-align: center;
-      padding: 42px 40px;
+    display: inline-block;
+    background-color: #48525B;
+    box-shadow: 10px 10px 3px black;
+    border-radius: 3px;
+    text-align: center;
+    padding: 42px 44px;
+  }
+
+  .box .title
+  {
+    margin-bottom: 28px;
   }
