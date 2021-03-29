@@ -1,4 +1,4 @@
-.button
+.main-button
 {
     display: inline-block;
     background-color: #394046;
@@ -13,7 +13,7 @@
     transition: .3s;
 }
 
-.button:hover
+.main-button:hover
 {
     animation: pulse 1s infinite;
     transition: .3s;

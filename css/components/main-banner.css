@@ -1,28 +1,28 @@
-.banner
+.main-banner
 {
     box-sizing: border-box;
     background-image: url(https://raw.githubusercontent.com/vittz1/About-me/main/assets/img/fundo.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
-    height: 800px;
-    border-bottom: 11px solid black;
+    height: 780px;
+    border-bottom: 11px solid #000;
     padding-top: 50px;
     padding-left: 60px;
 }
 
-.banner .wrapper
+.main-banner .wrapper-main
 {
     display:flex;
     flex-direction: column;
     width: 650px;
 }
 
-.banner .box
+.main-banner .main-box
 {
     margin-bottom: 40px;
 }
 
-.banner .navigation
+.main-banner .navigation
 {
     display: flex;
     justify-content: space-around;
