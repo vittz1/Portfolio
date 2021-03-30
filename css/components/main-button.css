@@ -11,6 +11,7 @@
     padding: 18px 20px;
     margin-right: 0;
     transition: .3s;
+    cursor: pointer;
 }
 
 .main-button:hover
