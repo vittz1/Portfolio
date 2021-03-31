@@ -32,3 +32,8 @@
       transform: scale(1);
     }
   }
+
+  .main-button.-full
+  {
+    width: 100%;
+  }

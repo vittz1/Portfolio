@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     
 </head>
 
@@ -35,10 +39,10 @@
         <img class="main-logo" src="assets/img/avatar.png" alt="logo">
         
         <nav>
-            <a class="main-action" href=""> Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#goskill"> Skills</a>
+            <a class="main-action" href="#goproject">Projetos</a>
+            <a class="main-action" href="#goabout">Sobre</a>
+            <a class="main-action" href="#goform">Contatos</a>
             <a class="main-button" href="">Download CV</a>
         </nav>
     </header>
@@ -57,7 +61,7 @@
         </div>
     </section>
 
-    <section class="main-section">
+    <section id="goskill" class="main-section">
         <h2 class="main-title -second">Skills</h2>
             <div class="wrapper-skill">
                 <article class="skill-tec -space">
@@ -139,7 +143,7 @@
         </div>
     </section>
     
-    <section class="main-section -bgBlack -bdFirst">
+    <section id="goproject" class="main-section -bgBlack -bdFirst">
 
         <h2 class="main-title -second">Projetos</h1>
          <div class="wrapper-card">  
@@ -159,17 +163,10 @@
         </div>
     </section>
 
-    <section class="main-section -bdBlack">
+    <section id="goabout" class="main-section -bdBlack">
 
         <h2 class="main-title -second">Sobre</h2>
 
-        <p class="main-descripition">Meu nome é João Vitor. Atualmente moro no estado do Rio De Janeiro e curso Ciencia da computação. No meu tempo livre gosto de programar e hackear coisas.<br>
-            Joguei futebol dos meus 6 anos até os 17, e nesse tempo fui campeão de muitos campeonatos regionais.<br>
-            Meu primeiro contato com computadores foi com meus 9 anos, com um famoso Windows 97, desde então me apaixonei por computadores.<br>
-            Comecei a programar com 11 anos e meu primeiro contato com programação foi com Visual Basic, na criação de crypters em 2011.<br>
-            Desde então me apaixonei pela area de programação e segurança digital.
-        </p>
-        
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
             
@@ -225,12 +222,55 @@
                     </figure>
                 </div>
             </div>
-
+            
             <button class="button-arrow -right"><span class="content">Voltar</span></button>
     </section>
+        
+        <p class="main-descripition">
+            Meu nome é João Vitor. Atualmente moro no estado do Rio De Janeiro e curso Ciencia da computação. No meu tempo livre gosto de programar e hackear coisas.<br>
+            Joguei futebol dos meus 6 anos até os 17, e nesse tempo fui campeão de muitos campeonatos regionais.<br>
+            Meu primeiro contato com computadores foi com meus 9 anos, com um famoso Windows 97, desde então me apaixonei por computadores.<br>
+            Comecei a programar com 11 anos e meu primeiro contato com programação foi com Visual Basic, na criação de crypters em 2011.<br>
+            Desde então me apaixonei pela area de programação e segurança digital.
+        </p>
+
     </section>
 
+    <form id="goform" class="main-form">
+
+        <legend class="main-title -second">Contatos</legend>
+
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text" required >
+
+        <label class="main-label" for="email" >Email</label>
+        <input class="main-input" id="email" type="email" required>
+
+        <label class="main-label" for="msg">Mensagem</label>
+        <textarea class="main-input -textarea" name="" id="msg" required></textarea>
+
+        <button class="main-button -full" type="submit">Enviar</button>
+
+    </form>
+
+    <footer class="main-footer">
+
+        <a href="https://www.instagram.com/vithor97/" target="_blank">
+            <img class="ico-social" src="img/instagram.png" alt="">
+        </a>
+        <a href="https://twitter.com/vithor97" target="_blank">
+            <img class="ico-social" src="img/twitter.png" alt="">
+        </a>
+        <a href="https://www.twitch.tv/vittz0r" target="_blank">
+            <img class="ico-social" src="img/twitch.png" alt="">
+        </a>
+        <a href="https://github.com/vittz1" target="_blank">
+            <img class="ico-social" src="img/github.png" alt="">
+        </a>
+
+    </footer>
+
     <script src="js/components/main-corousel.js"></script>
-    
+
 </body>
 </html>
